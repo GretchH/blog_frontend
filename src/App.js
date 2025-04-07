@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+// filepath: /Users/gretchellherman/Documents/GitHub/test/blog_frontend/src/App.js
+import React from 'react';
 import './App.css';
+import Home from './components/Home';
+import Blog from './components/blog';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   return (
+      <div className="App">
+         <h1>Welcome To My Blog</h1>
+         <p>All About Cars and the Automotive Industry</p>
+         {/* <Home /> */}
+         <Blog />
+      </div>
+   );
 }
 
+
 export default App;
+
+
+
+
