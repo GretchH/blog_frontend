@@ -2,16 +2,13 @@
 import React from 'react';
 import './App.css';
 import Blog from './components/blog';
-
-
-
+import About from './About';
 
 
 function App() {
    return (
       <div className="App">
          <h1>Welcome To My Blog</h1>
-         <p>All About Cars and the Automotive Industry</p>
          {/* <Home /> */}
          <Blog />
       </div>
