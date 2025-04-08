@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export function Navbar() {
+function Navbar() {
   const nav = document.createElement("nav");
   return (
     <nav style={{ padding: '1rem', backgroundColor: '#f4f4f4' }}>

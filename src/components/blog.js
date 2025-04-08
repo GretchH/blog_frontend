@@ -3,18 +3,23 @@ import React, { useState } from 'react';
 const blogPosts = [
     {
       title: "All New 2025 GMC Terrain",
-      summary: "Discover essential principles that will improve your design process and help create more user-friendly websites.",
+      summary: "Features to look forward to in the all new 2025 GMC Terrain.",
       link: "#"
     },
     {
       title: "Should You Go EV?",
-      summary: "A quick and clear explanation of closures in JavaScript with real-world use cases and code samples.",
+      summary: "The future of electric vehicles and their impact on the automotive industry.",
       link: "#"
     },
     {
-      "title": "CSS Grid vs Flexbox: When to Use What",
-      "summary": "Both are powerful tools, but knowing when and how to use them can make your layouts cleaner and more efficient.",
-      "link": "#"
+      title: "All About Cars 2025",
+      summary: "Top 10 cars to look forward to in 2025.",
+      link: "#"
+    },
+    {
+        title: "Latest Automotive Marketing Trends",
+        summary: "Top 10 cars to look forward to in 2025.",
+        link: "#"  
     }
   ];
   
